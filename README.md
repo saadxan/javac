@@ -19,7 +19,7 @@ A parser &amp; tokenizer for plain C code.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Command line application that parses and tokenizes plain C code. 
+Command line application that parses and tokenizes plain C code using Java. 
 
 Features:
 * Parses and tokenizers given input file of C code via command line arguments
