@@ -1,0 +1,9 @@
+procedure main {
+    int sum;
+    int total;
+    int result;
+
+    sum = 42 * 13;
+    total = 37;
+    result = sum + 47 / total;
+}
