@@ -11,16 +11,17 @@ public class Scanner {
 
     public static void main(String[] args) throws IOException{
 
-        File file = new File("src/front.in");
+        if(args.length == 0) {
+            System.out.println("Incorrect number of arguments.");
+            System.exit(0);
+        }
+
+        File file = new File(args[0]);
         if(!file.exists()){
             System.out.printf("The file %s does not exist. Please use correct name in the code.%n", file);
             System.exit(0);
         }
         sc = new java.util.Scanner(file);
-
-        if(args.length == 0)
-            printTokens();
-            //printStatements();
 
         for(String arg: args){
             switch(arg){
@@ -29,6 +30,9 @@ public class Scanner {
                     break;
                 case "-verbose":
                     printStatements();
+                    break;
+                default:
+                    printTokens();
             }
         }
     }
