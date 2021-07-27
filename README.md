@@ -30,7 +30,7 @@ Examples:
 
 ```console
 saadxan@PC javac % javac *.java
-saaadxan@PC javac % java Scanner front.in
+saadxan@PC javac % java Scanner front.in
 Next token is: 46         Next lexeme is: procedure  Next code is PROC      
 Next token is: 41         Next lexeme is: main       Next code is MAIN      
 Next token is: 54         Next lexeme is: {          Next code is LEFT_BRACKET
